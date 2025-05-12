@@ -11,6 +11,13 @@
     <fields name="params">
       <fieldset name="basic">
         <field name="zalo_phone" type="text" default="0357379334" label="Số điện thoại Zalo" description="Nhập số điện thoại Zalo (chỉ số, không có dấu cách hoặc dấu -)" />
+        <field name="button_position" type="list" label="Vị trí nút" default="bottom-left" description="Chọn vị trí hiển thị của nút chat">
+          <option value="bottom-left">Dưới bên trái</option>
+          <option value="bottom-right">Dưới bên phải</option>
+          <option value="top-left">Trên bên trái</option>
+          <option value="top-right">Trên bên phải</option>
+      </field>
+
       </fieldset>
     </fields>
   </config>
