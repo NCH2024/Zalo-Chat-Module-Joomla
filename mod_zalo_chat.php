@@ -56,4 +56,3 @@ $html = "
 ";
 
 echo $css . $html;
-?>

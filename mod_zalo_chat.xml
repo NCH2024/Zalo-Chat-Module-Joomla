@@ -3,6 +3,7 @@
   <name>mod_zalo_chat</name>
   <author>Hiệp Nguyễn, Khang Nguyễn</author>
   <version>1.0.0</version>
+   <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
   <description>Hiển thị liên hệ zalo nhanh, gọn và tiện lợi trên trang web của bạn</description>
   <files>
     <filename module="mod_zalo_chat">mod_zalo_chat.php</filename>
