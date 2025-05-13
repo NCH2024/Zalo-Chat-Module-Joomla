@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0" client="site" method="upgrade">
+  <name>mod_zalo_chat</name>
+  <author>Hiệp Nguyễn, Khang Nguyễn</author>
+  <version>1.0.0</version>
+  <description>Hiển thị liên hệ zalo nhanh, gọn và tiện lợi trên trang web của bạn</description>
+  <files>
+    <filename module="mod_zalo_chat">mod_zalo_chat.php</filename>
+  </files>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field name="zalo_phone" type="text" default="0357379334" label="Số điện thoại Zalo" description="Nhập số điện thoại Zalo (chỉ số, không có dấu cách hoặc dấu -)" />
+        <field name="button_position" type="list" label="Vị trí nút" default="bottom-left" description="Chọn vị trí hiển thị của nút chat">
+          <option value="bottom-left">Dưới bên trái</option>
+          <option value="bottom-right">Dưới bên phải</option>
+          <option value="top-left">Trên bên trái</option>
+          <option value="top-right">Trên bên phải</option>
+      </field>
+
+      </fieldset>
+    </fields>
+  </config>
+</extension>
